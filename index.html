@@ -69,7 +69,7 @@ button {
 
         bttn.onclick = function () {
 
-          gameInstance = UnityLoader.instantiate("gameContainer", "slope.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+          gameInstance = UnityLoader.instantiate("gameContainer", "slope2.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
           this.remove();
         }
       }
